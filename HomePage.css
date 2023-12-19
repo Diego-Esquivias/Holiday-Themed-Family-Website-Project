@@ -1,0 +1,145 @@
+ul a:hover {
+    font-size: x-large;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.NavBar {
+    background: url(./Images/repeating-triangles.svg);
+    border-radius: 20px;
+    border: 4px dashed #000;
+}
+
+#title {
+    color: #fff;
+    border-radius: 20px;
+    background: url(./Images/diagonal-stripes.svg);
+    border: 4px dashed #000;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+li img {
+    height: 100px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: url(./Images/diagonal-stripes.svg);
+    border-radius: 20px;
+    border: 2px dashed #000
+}
+
+
+.search-bar {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background: url(./Images/repeating-triangles.svg);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px dotted #000;
+}
+
+body {
+    background: url(./Images/protruding-squares.svg);
+    margin: 20px;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.text {
+    float: left;
+    width: 50%;
+    font-size: x-large;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 20px;
+    background: url(./Images/diagonal-stripes.svg);
+    border: 4px dashed #000;
+}
+
+.image {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.content-1 {
+    text-align: center;
+    color: black;
+    max-width: 1000px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.text-1 {
+    float: right;
+    width: 50%;
+    font-size: x-large;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 20px;
+    background: url(./Images/diagonal-stripes.svg);
+    border: 4px dashed #000;
+}
+
+.image-1 {
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+img {
+    height: auto;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.Community{
+    text-align: center;
+}
+
+@font-face {
+    font-family: Christmas;
+    src: url(./gift_of_christmas/GiftOfChristmas_PERSONAL_USE_ONLY.otf);
+}
+h1{
+    font-family: Christmas;
+}
+h2{
+    font-family: Christmas;
+}
+p{
+    font-family: Christmas;
+}
+li{
+    font-family: Christmas;
+}

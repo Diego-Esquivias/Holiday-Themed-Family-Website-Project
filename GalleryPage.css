@@ -1,0 +1,24 @@
+.image-grid {
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      gap: 10px;
+}
+
+.image-item {
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Christmas;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
